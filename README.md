@@ -28,6 +28,7 @@ Copy
 Edit
 npm install
 Run the app:
+
 ```
 
 ```bash
@@ -71,6 +72,7 @@ Edit
 curl http://localhost:3000/api/courses
 GET /api/courses/:id
 Returns a course by ID:
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/Get.png)
 ```
 
 ```bash
@@ -79,6 +81,8 @@ Edit
 curl http://localhost:3000/api/courses/2
 POST /api/courses
 Adds a new course (name must be at least 3 characters):
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/Get.png)
+
 ```
 ```json
 Copy
@@ -93,8 +97,11 @@ Edit
 curl -X POST http://localhost:3000/api/courses \
   -H "Content-Type: application/json" \
   -d '{"name": "networking"}'
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/Get.png)
+
 PUT /api/courses/:id
 Updates a course:
+
 ```
 
 ```json
@@ -103,6 +110,8 @@ Edit
 {
   "name": "advanced math"
 }
+
+
 ```
 ```bash
 Copy
@@ -111,6 +120,8 @@ curl -X PUT http://localhost:3000/api/courses/1 \
   -H "Content-Type: application/json" \
   -d '{"name": "advanced math"}'
 DELETE /api/courses/:id
+
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/put.png)
 Deletes a course:
 ```
 
@@ -118,6 +129,7 @@ Deletes a course:
 Copy
 Edit
 curl -X DELETE http://localhost:3000/api/courses/1
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/delete.png)
 ```
 📫 Postman Collection
 You can use Postman for testing.
