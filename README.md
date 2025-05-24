@@ -83,7 +83,7 @@ curl http://localhost:3000/api/courses/2
 POST /api/courses
 Adds a new course (name must be at least 3 characters):
 ```
-![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/Get.png)
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/post.png)
 
 
 ```json
@@ -100,7 +100,7 @@ curl -X POST http://localhost:3000/api/courses \
   -H "Content-Type: application/json" \
   -d '{"name": "networking"}'
 ```
-![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/Get.png)
+![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/post.png)
 
 PUT /api/courses/:id
 Updates a course:
@@ -132,6 +132,7 @@ Deletes a course:
 Copy
 Edit
 curl -X DELETE http://localhost:3000/api/courses/1
+```
 ![Course API](https://github.com/Sergeb250/Restful-API-Express/blob/aaa53b937aaaa85391b63003b3feaa8075c9725e/screenshots/delete.png)
 ```
 📫 Postman Collection
